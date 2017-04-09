@@ -1,0 +1,48 @@
+ .example-container {
+        margin-top: 10px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0);
+        /* background: linear-gradient(to bottom, #eee, rgba(204, 204, 204, 0)); */
+        padding: 3px;
+        padding-top: 0;
+        border-radius: 5px;
+    }
+    .example-controls {
+        background: #999;
+        margin: 0 -3px;
+        padding: 10px 0;
+        margin-bottom: 15px;
+
+    }
+    label {
+        display: inline-block;
+        font-weight: bold;
+
+    }
+    #palettes .sp-palette {
+        max-width: 500px;
+    }
+
+
+    .newGmail .sp-palette-row-0, .newGmail .sp-palette-row-1 {
+        margin-bottom: 5px;
+    }
+
+    .newGmail .sp-palette .sp-thumb-el {
+        width: 20px;
+        height: 20px;
+        margin: 1px 1px;
+    }
+
+    .newGmail .sp-palette .sp-thumb-el:hover, .newGmail  .sp-palette .sp-thumb-el.sp-thumb-active {
+        border-color: #000;
+    }
+
+    .titlebar {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
